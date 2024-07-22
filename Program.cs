@@ -14,7 +14,7 @@ class Program
     static void SelectNameAndClass()
     {
         // Select Name
-        Console.WriteLine("Name the player");
+        Console.WriteLine("Please name the player");
         player.name = Console.ReadLine() ?? player.name;
 
         Console.Clear();
